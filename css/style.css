@@ -1,0 +1,438 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 100vh;
+    background-color: #F0EED4!important;
+}
+header div, .navbar{
+    background-color: #F0EED4 !important;
+}
+.navbar-toggler{
+    background-color: #FF1481;
+}
+.nav-link{
+    font-weight: bold;
+}
+#hd_img{
+    width: 60%;
+    display: block;
+    margin: 30px auto;
+}
+#sozler{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #112e41;
+    padding: 20px;
+}
+#sozler h3, #sozler h4{
+    font-size: 1.3em;
+}
+.bold{
+    font-weight: 800;
+}
+#learn{
+    display: block;
+    margin: 30px auto;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    padding: 15px 30px;
+    background-color: #FF1481;
+    transition: 0.5s;
+}
+#learn:hover{
+    box-shadow: 0 0 10px #FF1481;
+}
+
+#features{
+    text-align: center;
+    padding: 80px;
+}
+#features h6, #ab_text h6, #recent h6, #creative h6, #team h6, #gallery3 h6{
+    color: #FF1481;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+#features h2, #creative h2, #team h2, #gallery3 h2{
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5em;
+}
+#gallery4{
+    padding: 10px;
+    background-color: #162B45;
+}
+.kart{
+    background-color: #2E4158;
+    padding: 40px 15px;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s
+}
+.kart:hover{
+    background-color: white;
+}
+.kart i{
+    background-color: #586779;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    padding: 10px;
+    transition: 0.5s
+}
+.kart:hover i{
+    background-color: #ff1481;
+}
+.kart h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    transition: 0.5s
+}
+.kart:hover h3{
+    color: black;
+}
+.kart p{
+    color: #828D9B;
+    line-height: 1.5em;
+    transition: 0.5s
+}
+.kart:hover p{
+    color: #5d6063;
+}
+#about{
+    padding: 20px;
+}
+#shekil{
+    height: 70vh;
+    background: url(../img/about_img_1.webp) no-repeat;
+}
+.black{
+    color: black !important;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#recent{
+    text-align: center;
+    margin: 60px 0;
+}
+#recent h2{
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 30px;
+}
+.text{
+    width: 90%;
+    text-align: left;
+    margin: 30px;
+}
+#recent a{
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    color: black;
+}
+#recent img{
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+}
+#stats{
+    background-color: #162B45;
+}
+#stats .container img {
+    padding: 30px;
+    height: 220px;
+}
+#creative{
+    padding: 30px;
+    text-align: center;
+}
+.d-block{
+    width: 100% !important;
+    height: 40% !important;
+}
+#team{
+    margin-top: 70px;
+    text-align: center;
+}
+#guys{
+    background-color: #162B45;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.guy {
+    border: 1px solid white;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.guy img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.guy h3 {
+    margin: 20px 0;
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    transition: 0.5s;
+}
+
+.guy p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+.social-links{
+    margin: 20px 10px;
+    padding: 10px 0;
+}
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#gallery3{
+    padding: 80px;
+    text-align: center;
+}
+#posts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+iframe{
+    width: 100%;
+}
+.post {
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    transition: 0.5s;
+}
+.post:hover {
+    box-shadow: 0 0 15px rgba(255, 158, 158, 0.555);
+}
+.post h3{
+    transition: 0.5s;
+}
+.post h3:hover, .guy h3:hover{
+    color: #ff1481;
+}
+.post img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.post-details {
+    padding: 0 10px;
+}
+
+.post-details span {
+    font-size: 12px;
+    color: #999;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.post-details h3 {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #333;
+    font-family: "Oswald", sans-serif;
+}
+.post-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #999;
+}
+footer{
+    background-color: #162B45;
+    color: white;
+    padding: 30px 0;
+}
+footer p{
+    font-size: .8em;
+    line-height: 1.5em;
+    margin: 10px;
+}
+.form_group {
+    position: relative;
+    border: 1px solid #45556a;
+    margin: 20px 0 16px;
+}
+.form_group input {
+    width: 90%;
+    height: 52px;
+    padding: 6px 12px 6px 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #999999;
+}
+.form_group button {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translate(-50%,-50%);
+    background-color: #ff1481;
+    color: #fff;
+    width: 49px;
+    border-radius: 0px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+footer td img{
+    height: 70px;
+    padding: 5px;
+}
+.footpart{
+    padding: 20px;
+}
+#f-part-2{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 992px) {
+    header{
+        background-color: #F7F7F7 !important;
+        background-image: url("../img/banner_overlay_1.png");
+        background-repeat: no-repeat;
+        background-position-y: 240px;
+    }
+    .container{
+        width: 75%;
+        margin: auto;
+    }
+    #navbarNav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    header, header div, .navbar{
+        background-color: #F7F7F7 !important;
+    }
+    .nav-item{
+        margin-left: 30px;
+    }
+    #hd_img{
+        width: 40%;
+        float: right;
+        display: block;
+        margin: 40px;
+    }
+    h1{
+        font-size: 6em;
+    }
+    #sozler{
+        margin-top: 50px;
+        width: 50%;
+    }
+    #sozler h3, #sozler h4{
+        font-size: 4.3em;
+    }
+    #gallery4 .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .kart{
+        width: 23%;
+        margin: 120px 0;
+    }
+    #shekil{
+        width: 50%;
+        float: left;
+        height: 90vh;
+        background: url(../img/img2.jpg) no-repeat;
+    }
+    #ab_text{
+        width: 40%;
+        float: right;
+        text-align: left !important;
+        padding-top: 10%;
+        font-family: "Oswald", sans-serif;
+    }
+    #ab_text p{
+        line-height: 1.5em;
+    }
+    .text{
+        width: 30%;
+    }
+    #recent img{
+        width: 50%;
+        text-align: initial;
+        margin: 0;
+    }
+    .row1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .row2{
+        display: flex;
+        justify-content: flex-start;
+    }
+    #stats .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    #stats .container img {
+        padding: 60px;
+    }
+    #video-karusel{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .carousel-inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 300px; /* Set a fixed height for the carousel */
+    }
+    .d-block{
+        width: 100% !important;
+        height: 10% !important;
+    }
+    .carousel-item img {
+        border-radius: 50%;
+    }
+    #carouselExampleControlsNoTouching{
+        width: 200px;
+        margin: 30px;
+    }
+    #video-karusel p{
+        padding: 40px;
+    }
+    footer #f-part-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footpart{
+        width: 30%;
+    }
+    iframe{
+        width: 50%;
+    }
+}
